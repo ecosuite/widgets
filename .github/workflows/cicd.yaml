@@ -1,0 +1,39 @@
+name: cicd
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+env:
+  NODE_AUTH_TOKEN: ${{ secrets.GH_PRIVATE_NPM_TOKEN }}
+permissions: read-all
+
+jobs:
+  style_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - run: pnpm i
+      - run: pnpm style:check
+  pipeline_pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - run: pnpm i
+      - run: pnpm pipeline:pre-commit

@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "ignorePaths": ["**/pnpm-lock.yaml", "**/package.json", ".turbo"],
+  "dictionaries": ["github-dictionary", "jargon-dictionary"],
+  "dictionaryDefinitions": [
+    {
+      "name": "github-dictionary",
+      "path": "./github-dictionary.txt",
+      "description": "Allowed github username spellings"
+    },
+    {
+      "name": "jargon-dictionary",
+      "path": "./jargon-dictionary.txt",
+      "description": "Allowed jargon spellings"
+    }
+  ],
+  "useGitignore": true
+}

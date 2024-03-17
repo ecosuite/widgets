@@ -1,0 +1,3 @@
+{
+  "extends": ["github>ecosuite/renovate-config"]
+}

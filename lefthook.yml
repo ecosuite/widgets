@@ -1,0 +1,13 @@
+pre-commit:
+  parallel: true
+  commands:
+    style_check:
+      run: pnpm style:check
+    pipeline_pre-commit:
+      run: pnpm pipeline:pre-commit
+
+pre-push:
+  parallel: true
+  commands:
+    commitlint:
+      run: pnpm commitlint --from HEAD~1

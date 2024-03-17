@@ -1,0 +1,50 @@
+{
+  "name": "@ecosuite/widgets",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/ecosuite/widgets/#readme",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "scripts": {
+    "lint:check": "pnpm turbo lint:check",
+    "lint:fix": "pnpm -r lint:fix",
+    "type-check": "pnpm turbo type-check",
+    "style:check:format": "prettier --check .",
+    "style:fix:format": "prettier --write .",
+    "style:check:markdown": "markdownlint . --ignore-path .gitignore --config .markdownlint.yaml",
+    "style:fix:markdown": "pnpm style:check:markdown --fix",
+    "style:check:cspell": "cspell \"*\" --config .github/cspell.json",
+    "style:check": "pnpm style:check:format && pnpm style:check:markdown && pnpm style:check:cspell",
+    "style:fix": "pnpm style:fix:format && pnpm style:fix:markdown",
+    "test": "pnpm turbo test",
+    "build": "pnpm turbo build",
+    "dev": "pnpm turbo dev",
+    "clean": "pnpm turbo clean && rimraf .turbo node_modules",
+    "pipeline:pre-commit": "pnpm turbo build type-check lint:check test",
+    "ci:publish": "pnpm build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.11.25",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "cspell": "^8.6.0",
+    "eslint": "^8.57.0",
+    "lefthook": "^1.6.5",
+    "markdownlint-cli": "^0.39.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "turbo": "^1.12.5"
+  }
+}
