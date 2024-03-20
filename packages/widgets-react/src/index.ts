@@ -1,1 +1,1 @@
-export const hello = "world";
+export { Button } from "~/components/Button";

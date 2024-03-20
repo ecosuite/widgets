@@ -131,3 +131,7 @@ dist
 
 # Tubro
 .turbo
+
+# Storybook
+*storybook.log
+storybook-static
