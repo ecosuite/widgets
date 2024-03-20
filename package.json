@@ -26,9 +26,10 @@
     "style:fix": "pnpm style:fix:format && pnpm style:fix:markdown",
     "test": "pnpm turbo test",
     "build": "pnpm turbo build",
+    "build:storybook": "pnpm turbo build:storybook",
     "dev": "pnpm turbo dev",
     "clean": "pnpm turbo clean && rimraf .turbo node_modules",
-    "pipeline:pre-commit": "pnpm turbo build type-check lint:check test",
+    "pipeline:pre-commit": "pnpm turbo build build:storybook type-check lint:check test",
     "ci:publish": "pnpm build && changeset publish"
   },
   "devDependencies": {
