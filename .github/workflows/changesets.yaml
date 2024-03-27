@@ -12,8 +12,6 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     permissions: write-all
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
