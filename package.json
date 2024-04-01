@@ -33,19 +33,19 @@
     "ci:publish": "pnpm build && changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
-    "@commitlint/cli": "^19.0.3",
-    "@commitlint/config-conventional": "^19.0.3",
-    "@tsconfig/node20": "^20.1.2",
-    "@types/node": "^20.11.25",
-    "@typescript-eslint/eslint-plugin": "^7.1.1",
-    "@typescript-eslint/parser": "^7.1.1",
-    "cspell": "^8.6.0",
-    "eslint": "^8.57.0",
-    "lefthook": "^1.6.5",
-    "markdownlint-cli": "^0.39.0",
-    "prettier": "^3.2.5",
-    "rimraf": "^5.0.5",
-    "turbo": "^1.12.5"
+    "@changesets/cli": "2.27.1",
+    "@commitlint/cli": "19.0.3",
+    "@commitlint/config-conventional": "19.0.3",
+    "@tsconfig/node20": "20.1.2",
+    "@types/node": "20.11.25",
+    "@typescript-eslint/eslint-plugin": "7.1.1",
+    "@typescript-eslint/parser": "7.1.1",
+    "cspell": "8.6.0",
+    "eslint": "8.57.0",
+    "lefthook": "1.6.5",
+    "markdownlint-cli": "0.39.0",
+    "prettier": "3.2.5",
+    "rimraf": "5.0.5",
+    "turbo": "1.12.5"
   }
 }
