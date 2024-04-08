@@ -1,0 +1,13 @@
+div.widget {
+  display: grid;
+}
+
+div.widget-header {
+  display: grid;
+}
+
+.widget-body {
+  display: grid;
+  justify-content: center;
+  background-color: white;
+}
