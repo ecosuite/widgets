@@ -1,13 +1,23 @@
+/*import "./index.css"*/
+
 div.widget {
-  display: grid;
+  display: block;
 }
 
 div.widget-header {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
 }
 
-.widget-body {
+div.widget-title {
+  display: inline;
+}
+
+div.widget-popout {
+  display: inline;
+}
+
+div.widget-body {
   display: grid;
   justify-content: center;
-  background-color: white;
 }
