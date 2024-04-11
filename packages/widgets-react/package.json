@@ -17,8 +17,9 @@
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest --passWithNoTests",
     "build:storybook": "storybook build",
-    "build": "tsup",
-    "storybook": "storybook dev -p 6006"
+    "build": "tsup && pnpm run import-css",
+    "storybook": "storybook dev -p 6006",
+    "import-css": "echo 'import \"./index.css\"' >> dist/index.js"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.25",
