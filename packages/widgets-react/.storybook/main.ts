@@ -23,6 +23,7 @@ const config: StorybookConfig = {
     getAbsolutePath("@storybook/addon-interactions"),
   ],
   framework: {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },

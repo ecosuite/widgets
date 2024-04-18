@@ -16,5 +16,7 @@
     "paths": {
       "~/*": ["./src/*"]
     }
-  }
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".storybook/**/*", "**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules", "dist", "storybook-static"]
 }
