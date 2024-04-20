@@ -1,6 +1,8 @@
 pre-commit:
   parallel: true
   commands:
+    gitleaks:
+      run: gitleaks protect --staged
     style_check:
       run: pnpm style:check
     pipeline_pre-commit:
