@@ -2,14 +2,12 @@ import React, { ReactNode } from "react";
 import "./components.css";
 
 interface HeaderProps {
-  icon: ReactNode;
-
   url?: string;
 
   title: string;
 }
 
-export const WidgetHeader = ({ icon, url = "null", title }: HeaderProps) => {
+export const WidgetHeader = ({ url = "null", title }: HeaderProps) => {
   function renderPopout() {
     if (url !== "null") {
       return (
