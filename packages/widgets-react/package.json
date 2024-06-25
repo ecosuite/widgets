@@ -33,7 +33,7 @@
     "@storybook/react-vite": "8.0.2",
     "@storybook/test": "8.0.2",
     "@tsconfig/node20": "20.1.2",
-    "@types/node": "20.11.24",
+    "@types/node": "20.14.9",
     "@types/react": "18.2.73",
     "@vitejs/plugin-react": "4.2.1",
     "eslint": "8.57.0",
