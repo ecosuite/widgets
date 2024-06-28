@@ -52,8 +52,8 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@chromatic-com/storybook':
-        specifier: 1.3.2
-        version: 1.3.2(react@18.2.0)
+        specifier: 1.6.0
+        version: 1.6.0(react@18.2.0)
       '@eslint/js':
         specifier: 9.0.0
         version: 9.0.0
@@ -1633,11 +1633,11 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /@chromatic-com/storybook@1.3.2(react@18.2.0):
-    resolution: {integrity: sha512-XcEWNjpRNHCedKZeaXL1cArTIVAap4hZQS0Khn1u1R/b2WRhBqTFDl582sJDUixBN+qkhdStS23S1+Fj/BC1nQ==}
+  /@chromatic-com/storybook@1.6.0(react@18.2.0):
+    resolution: {integrity: sha512-6sHj0l194KMBIZ0D5SeJ+Ys+zslehKHcC2d6Hd/YEn4cCl7p9mLuxrZjvf8xharGKy8vf9Q1tKrU2YdldzUBoQ==}
     engines: {node: '>=16.0.0', yarn: '>=1.22.18'}
     dependencies:
-      chromatic: 11.3.0
+      chromatic: 11.5.4
       filesize: 10.1.0
       jsonfile: 6.1.0
       react-confetti: 6.1.0(react@18.2.0)
@@ -4803,8 +4803,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic@11.3.0:
-    resolution: {integrity: sha512-q1ZtJDJrjLGnz60ivpC16gmd7KFzcaA4eTb7gcytCqbaKqlHhCFr1xQmcUDsm14CK7JsqdkFU6S+JQdOd2ZNJg==}
+  /chromatic@11.5.4:
+    resolution: {integrity: sha512-+J+CopeUSyGUIQJsU6X7CfvSmeVBs0j6LZ9AgF4+XTjI4pFmUiUXsTc00rH9x9W1jCppOaqDXv2kqJJXGDK3mA==}
     hasBin: true
     peerDependencies:
       '@chromatic-com/cypress': ^0.*.* || ^1.0.0
