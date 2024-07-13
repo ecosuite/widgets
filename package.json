@@ -42,7 +42,7 @@
     "lefthook": "1.6.18",
     "markdownlint-cli": "0.39.0",
     "prettier": "3.2.5",
-    "rimraf": "5.0.5",
+    "rimraf": "5.0.9",
     "turbo": "1.12.5"
   }
 }
