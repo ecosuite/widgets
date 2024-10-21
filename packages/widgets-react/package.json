@@ -37,7 +37,7 @@
     "@types/react": "18.3.11",
     "@vitejs/plugin-react": "4.3.3",
     "eslint": "8.57.0",
-    "eslint-plugin-storybook": "0.8.0",
+    "eslint-plugin-storybook": "0.10.1",
     "storybook": "8.1.11",
     "tsup": "8.0.2",
     "typescript": "5.3.3",
