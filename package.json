@@ -43,6 +43,6 @@
     "markdownlint-cli": "0.39.0",
     "prettier": "3.3.3",
     "rimraf": "5.0.10",
-    "turbo": "1.12.5"
+    "turbo": "1.13.4"
   }
 }
