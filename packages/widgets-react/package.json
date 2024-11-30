@@ -35,7 +35,7 @@
     "@tsconfig/node20": "20.1.4",
     "@types/node": "20.17.9",
     "@types/react": "18.3.12",
-    "@vitejs/plugin-react": "4.3.3",
+    "@vitejs/plugin-react": "4.3.4",
     "eslint": "8.57.0",
     "eslint-plugin-storybook": "0.8.0",
     "storybook": "8.1.11",
