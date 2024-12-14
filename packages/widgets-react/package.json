@@ -34,7 +34,7 @@
     "@storybook/test": "8.1.11",
     "@tsconfig/node20": "20.1.4",
     "@types/node": "20.17.10",
-    "@types/react": "18.3.14",
+    "@types/react": "18.3.16",
     "@vitejs/plugin-react": "4.3.4",
     "eslint": "8.57.0",
     "eslint-plugin-storybook": "0.8.0",
