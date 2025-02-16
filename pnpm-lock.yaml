@@ -106,8 +106,8 @@ importers:
         specifier: 8.1.11
         version: 8.1.11(react-dom@18.3.1)(react@18.3.1)
       tsup:
-        specifier: 8.3.5
-        version: 8.3.5(typescript@5.3.3)
+        specifier: 8.3.6
+        version: 8.3.6(typescript@5.3.3)
       typescript:
         specifier: 5.3.3
         version: 5.3.3
@@ -9404,8 +9404,8 @@ packages:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
     dev: true
 
-  /tsup@8.3.5(typescript@5.3.3):
-    resolution: {integrity: sha512-Tunf6r6m6tnZsG9GYWndg0z8dEV7fD733VBFzFJ5Vcm1FtlXB8xBD/rtrBi2a3YKEV7hHtxiZtW5EAVADoe1pA==}
+  /tsup@8.3.6(typescript@5.3.3):
+    resolution: {integrity: sha512-XkVtlDV/58S9Ye0JxUUTcrQk4S+EqlOHKzg6Roa62rdjL1nGWNUstG0xgI4vanHdfIpjP448J8vlN0oK6XOJ5g==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
