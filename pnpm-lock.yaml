@@ -12,11 +12,11 @@ importers:
         specifier: 2.27.12
         version: 2.27.12
       '@commitlint/cli':
-        specifier: 19.6.0
-        version: 19.6.0(@types/node@20.17.19)(typescript@5.3.3)
+        specifier: 19.7.1
+        version: 19.7.1(@types/node@20.17.19)(typescript@5.3.3)
       '@commitlint/config-conventional':
-        specifier: 19.6.0
-        version: 19.6.0
+        specifier: 19.7.1
+        version: 19.7.1
       '@tsconfig/node20':
         specifier: 20.1.4
         version: 20.1.4
@@ -1506,8 +1506,8 @@ packages:
     dev: true
     optional: true
 
-  /@commitlint/cli@19.6.0(@types/node@20.17.19)(typescript@5.3.3):
-    resolution: {integrity: sha512-v17BgGD9w5KnthaKxXnEg6KLq6DYiAxyiN44TpiRtqyW8NSq+Kx99mkEG8Qo6uu6cI5eMzMojW2muJxjmPnF8w==}
+  /@commitlint/cli@19.7.1(@types/node@20.17.19)(typescript@5.3.3):
+    resolution: {integrity: sha512-iObGjR1tE/PfDtDTEfd+tnRkB3/HJzpQqRTyofS2MPPkDn1mp3DBC8SoPDayokfAy+xKhF8+bwRCJO25Nea0YQ==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
@@ -1523,8 +1523,8 @@ packages:
       - typescript
     dev: true
 
-  /@commitlint/config-conventional@19.6.0:
-    resolution: {integrity: sha512-DJT40iMnTYtBtUfw9ApbsLZFke1zKh6llITVJ+x9mtpHD08gsNXaIRqHTmwTZL3dNX5+WoyK7pCN/5zswvkBCQ==}
+  /@commitlint/config-conventional@19.7.1:
+    resolution: {integrity: sha512-fsEIF8zgiI/FIWSnykdQNj/0JE4av08MudLTyYHm4FlLWemKoQvPNUYU2M/3tktWcCEyq7aOkDDgtjrmgWFbvg==}
     engines: {node: '>=v18'}
     dependencies:
       '@commitlint/types': 19.5.0
