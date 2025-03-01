@@ -39,7 +39,7 @@
     "@tsconfig/node20": "20.1.4",
     "@types/node": "20.17.22",
     "cspell": "8.17.5",
-    "lefthook": "1.10.11",
+    "lefthook": "1.11.2",
     "markdownlint-cli": "0.39.0",
     "prettier": "3.5.2",
     "rimraf": "5.0.10",
