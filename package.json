@@ -37,7 +37,7 @@
     "@commitlint/cli": "19.7.1",
     "@commitlint/config-conventional": "19.7.1",
     "@tsconfig/node20": "20.1.4",
-    "@types/node": "20.17.19",
+    "@types/node": "20.17.22",
     "cspell": "8.17.4",
     "lefthook": "1.10.11",
     "markdownlint-cli": "0.39.0",
