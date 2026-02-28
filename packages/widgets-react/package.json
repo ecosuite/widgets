@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "1.9.0",
-    "@eslint/js": "9.39.3",
+    "@eslint/js": "10.0.1",
     "@storybook/addon-essentials": "8.6.14",
     "@storybook/addon-interactions": "8.6.14",
     "@storybook/addon-links": "8.6.14",
@@ -36,7 +36,7 @@
     "@types/node": "20.19.33",
     "@types/react": "18.3.28",
     "@vitejs/plugin-react": "4.7.0",
-    "eslint": "8.57.1",
+    "eslint": "10.0.2",
     "eslint-plugin-storybook": "0.8.0",
     "storybook": "8.6.14",
     "tsup": "8.5.1",
